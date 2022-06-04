@@ -8,6 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
+/* apply styles to all links and paragraph elements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* end link and paragraph styles */
+/* header style start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,15 +49,8 @@ header div ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* header style end */
+/* hero style start */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +60,33 @@ p {
     background-position: center;
 }
 
+/* hero style end */
+/* start main content styles */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+/* alternating images in main content between left and right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -65,12 +97,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* end main content styles */
+/* start aside styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,24 +126,8 @@ p {
     max-width: 150px;
 }
 
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* end aside styles */
+/* start footer styles */
 footer {
     padding: 30px;
     clear: both;
@@ -126,3 +138,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+/* end footer styles */
